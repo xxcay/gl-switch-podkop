@@ -95,4 +95,4 @@ echo "  uci show podkop | grep fully_routed_ips"
 echo "should show/hide your IP(s) depending on the switch position."
 echo
 echo "If ON and OFF turn out reversed for your physical switch direction,"
-echo "edit $SCRIPT_PATH and swap the 'on'/'off' branch in the second line."
+echo "edit $SCRIPT_PATH and in the line with MODE= change \"on\" to \"off\"."
